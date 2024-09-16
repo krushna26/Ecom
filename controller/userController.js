@@ -43,7 +43,7 @@ const userRegister = async function(req, res) {
             email,
             mobile,
             password: hashedPassword,
-            is_verified: 1,
+            // is_verified: 1,
             // image: 'images/' + req.file.filename
         });
 
